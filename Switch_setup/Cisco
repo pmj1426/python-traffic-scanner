@@ -1,0 +1,6 @@
+Switch> enable
+Switch# config terminal
+switch(config)# monitor session <session number> source interface gigabitethernet 0/<port number>
+switch(config)# monitor session 1 destination interface gigabitethernet 0/<port number>
+switch(config)# exit
+switch# show monitor session <session number>
